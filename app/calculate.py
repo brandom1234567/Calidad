@@ -1,8 +1,6 @@
 import math
 
-cateto1 = float(input("Introduce el valor del primer cateto: "))
-cateto2 = float(input("Introduce el valor del segundo cateto: "))
-
-hipotenusa = math.sqrt(cateto1**2 + cateto2**2)
+def hipotenusa(cateto1, cateto2):
+    return math.sqrt(cateto1**2 + cateto2**2)
 
 print(f"La hipotenusa es: {hipotenusa}")
