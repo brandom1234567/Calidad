@@ -9,3 +9,6 @@ def test_2():
 def test_3():
     assert hipotenusa(8, 15) == 17
 
+def test_4():
+    assert hipotenusa (8, 15) != 15
+
