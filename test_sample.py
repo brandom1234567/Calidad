@@ -12,3 +12,6 @@ def test_3():
 def test_4():
     assert hipotenusa (8, 15) != 15
 
+def test_5():
+    assert hipotenusa (8, 15) == 16
+
